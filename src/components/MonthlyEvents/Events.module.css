@@ -1,0 +1,49 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.emptyEvent {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.event {
+  padding: 15px 30px;
+  background-color: #f4f2fb;
+  border-radius: 8px;
+  position: relative;
+}
+
+.trash {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.eventName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #403c4a;
+}
+
+.creator {
+  font-size: 13px;
+  font-weight: 500;
+  color: #78757f;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 500;
+  color: #78757f;
+}
